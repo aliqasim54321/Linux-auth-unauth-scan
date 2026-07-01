@@ -55,10 +55,6 @@ Connect to the Ubuntu VM using **Azure Bastion**.
 
 After connecting, verify that SSH access is working properly.
 
-> **Figure 2:** Successful Azure Bastion SSH Connection
-
-![Figure 2](images/fig2.png)
-
 ---
 
 # Part 2: Perform an Unauthenticated Scan
@@ -82,9 +78,9 @@ Configure the scan using the following settings:
 | Scan Engine | Local Scan Engine |
 | Target | 10.0.0.109 |
 
-> **Figure 3:** Basic Network Scan Configuration
+> **Figure 2:** Basic Network Scan Configuration
 
-![Figure 3](images/fig3.png)
+![Figure 2](images/fig2.png)
 
 ---
 
@@ -103,9 +99,9 @@ Configure the following options:
 
 Click **Save**.
 
-> **Figure 4:** Discovery Settings
+> **Figure 3:** Discovery Settings
 
-![Figure 4](images/fig4.png)
+![Figure 3](images/fig3.png)
 
 ---
 
@@ -113,6 +109,9 @@ Click **Save**.
 
 Launch the scan and wait for it to complete.
 
+> **Figure 4:** Launching the scan 
+
+![Figure 4](images/fig4.png)
 ### Scan Duration
 
 - **Unauthenticated Scan:** Approximately **5 minutes**
@@ -173,7 +172,7 @@ This command:
 
 > **Figure 7:** Enabling Root Login via SSH
 
-![Figure 7](images/fig7.png)
+![Figure 7](images/fig6.png)
 
 ---
 
@@ -204,7 +203,7 @@ Save the configuration.
 
 > **Figure 8:** SSH Credential Configuration
 
-![Figure 8](images/fig8.png)
+![Figure 8](images/fig7.png)
 
 ---
 
@@ -224,7 +223,7 @@ After completion:
 
 > **Figure 9:** Authenticated Scan Results
 
-![Figure 9](images/fig9.png)
+![Figure 9](images/fig8.png)
 
 ---
 
@@ -240,10 +239,6 @@ Compare both exported reports.
 | Installed Software Detection | ❌ | ✅ |
 | Vulnerability Coverage | Limited | Extensive |
 | Scan Duration | 5 Minutes | 5 Minutes |
-
-> **Figure 10:** Comparison of Scan Results
-
-![Figure 10](images/fig10.png)
 
 ---
 
